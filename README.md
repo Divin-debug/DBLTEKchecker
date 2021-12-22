@@ -1,2 +1,9 @@
-# -DBLTEK-MASS-SHODAN-EXPLOIT-GSM-GATEWAYS-
-python script who crawl shodan and check if the ip are vulnerable tu dbltek exploit
+# 🐛 MASS DBLTEK EXPLOIT CHECKER USING SHODAN
+🕸 Python script who crawl first shodan page and check DBLTEK vulnerability "https://www.exploit-db.com/exploits/44051"
+<h1>How to use: </h1>
+```
+python main.py HTTP/1.0 401 Please Authenticate WWW-Authenticate: Basic realm="Please Login"
+```
+```
+put your shodan api key in line 53
+``` 
